@@ -6,7 +6,13 @@ public class Main {
 
         int increment = increment(num);
 
+        int decrement = decrement(increment);
+
         System.out.println(increment);
+
+        System.out.println(decrement);
+
+
 
     }
 
@@ -14,5 +20,10 @@ public class Main {
 
             return ++number;
         }
+
+    public static int decrement(int number) {
+
+        return ++number;
+    }
 
 }
